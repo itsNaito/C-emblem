@@ -1,0 +1,38 @@
+[
+{
+  "directory": "/Users/ianfanfair/C++/C-emblem/build",
+  "command": "/usr/bin/clang++   -g -std=gnu++14 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.2 -fPIC -o CMakeFiles/Example.dir/Example.cpp.o -c /Users/ianfanfair/C++/C-emblem/Example.cpp",
+  "file": "/Users/ianfanfair/C++/C-emblem/Example.cpp",
+  "output": "CMakeFiles/Example.dir/Example.cpp.o"
+},
+{
+  "directory": "/Users/ianfanfair/C++/C-emblem/build/googleTest/googlemock",
+  "command": "/usr/bin/clang++  -I/Users/ianfanfair/C++/C-emblem/googleTest/googlemock/include -I/Users/ianfanfair/C++/C-emblem/googleTest/googlemock -isystem /Users/ianfanfair/C++/C-emblem/googleTest/googletest/include -isystem /Users/ianfanfair/C++/C-emblem/googleTest/googletest -g -std=c++14 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.2 -fPIC  -DGTEST_HAS_PTHREAD=1   -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /Users/ianfanfair/C++/C-emblem/googleTest/googlemock/src/gmock-all.cc",
+  "file": "/Users/ianfanfair/C++/C-emblem/googleTest/googlemock/src/gmock-all.cc",
+  "output": "googleTest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o"
+},
+{
+  "directory": "/Users/ianfanfair/C++/C-emblem/build/googleTest/googlemock",
+  "command": "/usr/bin/clang++  -isystem /Users/ianfanfair/C++/C-emblem/googleTest/googlemock/include -isystem /Users/ianfanfair/C++/C-emblem/googleTest/googlemock -isystem /Users/ianfanfair/C++/C-emblem/googleTest/googletest/include -isystem /Users/ianfanfair/C++/C-emblem/googleTest/googletest -g -std=c++14 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.2 -fPIC  -DGTEST_HAS_PTHREAD=1   -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /Users/ianfanfair/C++/C-emblem/googleTest/googlemock/src/gmock_main.cc",
+  "file": "/Users/ianfanfair/C++/C-emblem/googleTest/googlemock/src/gmock_main.cc",
+  "output": "googleTest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o"
+},
+{
+  "directory": "/Users/ianfanfair/C++/C-emblem/build/googleTest/googletest",
+  "command": "/usr/bin/clang++  -I/Users/ianfanfair/C++/C-emblem/googleTest/googletest/include -I/Users/ianfanfair/C++/C-emblem/googleTest/googletest -g -std=c++14 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.2 -fPIC  -DGTEST_HAS_PTHREAD=1   -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /Users/ianfanfair/C++/C-emblem/googleTest/googletest/src/gtest-all.cc",
+  "file": "/Users/ianfanfair/C++/C-emblem/googleTest/googletest/src/gtest-all.cc",
+  "output": "googleTest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o"
+},
+{
+  "directory": "/Users/ianfanfair/C++/C-emblem/build/googleTest/googletest",
+  "command": "/usr/bin/clang++  -isystem /Users/ianfanfair/C++/C-emblem/googleTest/googletest/include -isystem /Users/ianfanfair/C++/C-emblem/googleTest/googletest -g -std=c++14 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.2 -fPIC  -DGTEST_HAS_PTHREAD=1   -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /Users/ianfanfair/C++/C-emblem/googleTest/googletest/src/gtest_main.cc",
+  "file": "/Users/ianfanfair/C++/C-emblem/googleTest/googletest/src/gtest_main.cc",
+  "output": "googleTest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o"
+},
+{
+  "directory": "/Users/ianfanfair/C++/C-emblem/build/test",
+  "command": "/usr/bin/clang++  -isystem /Users/ianfanfair/C++/C-emblem/googleTest/googletest/include -isystem /Users/ianfanfair/C++/C-emblem/googleTest/googletest -g -std=gnu++14 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.2 -fPIE -o CMakeFiles/ExampleTests.dir/ExampleTests.cpp.o -c /Users/ianfanfair/C++/C-emblem/test/ExampleTests.cpp",
+  "file": "/Users/ianfanfair/C++/C-emblem/test/ExampleTests.cpp",
+  "output": "test/CMakeFiles/ExampleTests.dir/ExampleTests.cpp.o"
+}
+]

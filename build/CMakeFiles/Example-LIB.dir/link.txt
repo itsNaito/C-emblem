@@ -1,0 +1,2 @@
+/usr/bin/ar qc libExample-LIB.a "CMakeFiles/Example-LIB.dir/Example.cpp.o"
+/usr/bin/ranlib libExample-LIB.a
