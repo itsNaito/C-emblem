@@ -1,4 +1,5 @@
-/Users/ianfanfair/C++/C-emblem/build/CMakeFiles/Example.dir
+/Users/ianfanfair/C++/C-emblem/build/CMakeFiles/C-Emblem.dir
+/Users/ianfanfair/C++/C-emblem/build/CMakeFiles/C-Emblem_Executable.dir
 /Users/ianfanfair/C++/C-emblem/build/CMakeFiles/test.dir
 /Users/ianfanfair/C++/C-emblem/build/CMakeFiles/edit_cache.dir
 /Users/ianfanfair/C++/C-emblem/build/CMakeFiles/rebuild_cache.dir
@@ -31,7 +32,7 @@
 /Users/ianfanfair/C++/C-emblem/build/googleTest/googletest/CMakeFiles/install.dir
 /Users/ianfanfair/C++/C-emblem/build/googleTest/googletest/CMakeFiles/install/local.dir
 /Users/ianfanfair/C++/C-emblem/build/googleTest/googletest/CMakeFiles/install/strip.dir
-/Users/ianfanfair/C++/C-emblem/build/test/CMakeFiles/ExampleTests.dir
+/Users/ianfanfair/C++/C-emblem/build/test/CMakeFiles/C-Emblem-Test.dir
 /Users/ianfanfair/C++/C-emblem/build/test/CMakeFiles/test.dir
 /Users/ianfanfair/C++/C-emblem/build/test/CMakeFiles/edit_cache.dir
 /Users/ianfanfair/C++/C-emblem/build/test/CMakeFiles/rebuild_cache.dir

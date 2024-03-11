@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.13)
 
-set(This Example)
+set(This C-Emblem)
 
 project(${This} C CXX)
 
@@ -13,6 +13,7 @@ enable_testing()
 add_subdirectory(googleTest)
 
 set(Headers
+    src/model/Stats.hpp
     Example.hpp
 )
 
@@ -21,5 +22,9 @@ set(Sources
 )
 
 add_library(${This} ${Sources} ${Headers})
+
+add_executable(${This}_Executable src/view/main.cpp)
+target_link_libraries(${This}_Executable PRIVATE ${This})
+
 
 add_subdirectory(test)

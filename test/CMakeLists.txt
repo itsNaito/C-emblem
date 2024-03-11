@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.13)
 
-set(This ExampleTests)
+set(This C-Emblem-Test)
 
 set(Sources
     ExampleTests.cpp
@@ -9,7 +9,7 @@ set(Sources
 add_executable(${This} ${Sources})
 target_link_libraries(${This} PUBLIC 
     gtest_main
-    Example
+    C-Emblem
 )
 
 add_test(

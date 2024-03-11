@@ -1,0 +1,2 @@
+/usr/bin/ar qc libC-Emblem.a "CMakeFiles/C-Emblem.dir/Example.cpp.o"
+/usr/bin/ranlib libC-Emblem.a

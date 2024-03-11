@@ -1,9 +1,15 @@
 [
 {
   "directory": "/Users/ianfanfair/C++/C-emblem/build",
-  "command": "/usr/bin/clang++   -g -std=gnu++14 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.2 -fPIC -o CMakeFiles/Example.dir/Example.cpp.o -c /Users/ianfanfair/C++/C-emblem/Example.cpp",
+  "command": "/usr/bin/clang++   -g -std=gnu++14 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.2 -fPIC -o CMakeFiles/C-Emblem.dir/Example.cpp.o -c /Users/ianfanfair/C++/C-emblem/Example.cpp",
   "file": "/Users/ianfanfair/C++/C-emblem/Example.cpp",
-  "output": "CMakeFiles/Example.dir/Example.cpp.o"
+  "output": "CMakeFiles/C-Emblem.dir/Example.cpp.o"
+},
+{
+  "directory": "/Users/ianfanfair/C++/C-emblem/build",
+  "command": "/usr/bin/clang++   -g -std=gnu++14 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.2 -fPIE -o CMakeFiles/C-Emblem_Executable.dir/src/view/main.cpp.o -c /Users/ianfanfair/C++/C-emblem/src/view/main.cpp",
+  "file": "/Users/ianfanfair/C++/C-emblem/src/view/main.cpp",
+  "output": "CMakeFiles/C-Emblem_Executable.dir/src/view/main.cpp.o"
 },
 {
   "directory": "/Users/ianfanfair/C++/C-emblem/build/googleTest/googlemock",
@@ -31,8 +37,8 @@
 },
 {
   "directory": "/Users/ianfanfair/C++/C-emblem/build/test",
-  "command": "/usr/bin/clang++  -isystem /Users/ianfanfair/C++/C-emblem/googleTest/googletest/include -isystem /Users/ianfanfair/C++/C-emblem/googleTest/googletest -g -std=gnu++14 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.2 -fPIE -o CMakeFiles/ExampleTests.dir/ExampleTests.cpp.o -c /Users/ianfanfair/C++/C-emblem/test/ExampleTests.cpp",
+  "command": "/usr/bin/clang++  -isystem /Users/ianfanfair/C++/C-emblem/googleTest/googletest/include -isystem /Users/ianfanfair/C++/C-emblem/googleTest/googletest -g -std=gnu++14 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.2 -fPIE -o CMakeFiles/C-Emblem-Test.dir/ExampleTests.cpp.o -c /Users/ianfanfair/C++/C-emblem/test/ExampleTests.cpp",
   "file": "/Users/ianfanfair/C++/C-emblem/test/ExampleTests.cpp",
-  "output": "test/CMakeFiles/ExampleTests.dir/ExampleTests.cpp.o"
+  "output": "test/CMakeFiles/C-Emblem-Test.dir/ExampleTests.cpp.o"
 }
 ]

@@ -172,17 +172,30 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Example
+# Target rules for targets named C-Emblem
 
 # Build rule for target.
-Example: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Example
-.PHONY : Example
+C-Emblem: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 C-Emblem
+.PHONY : C-Emblem
 
 # fast build rule for target.
-Example/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Example.dir/build.make CMakeFiles/Example.dir/build
-.PHONY : Example/fast
+C-Emblem/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C-Emblem.dir/build.make CMakeFiles/C-Emblem.dir/build
+.PHONY : C-Emblem/fast
+
+#=============================================================================
+# Target rules for targets named C-Emblem_Executable
+
+# Build rule for target.
+C-Emblem_Executable: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 C-Emblem_Executable
+.PHONY : C-Emblem_Executable
+
+# fast build rule for target.
+C-Emblem_Executable/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C-Emblem_Executable.dir/build.make CMakeFiles/C-Emblem_Executable.dir/build
+.PHONY : C-Emblem_Executable/fast
 
 #=============================================================================
 # Target rules for targets named gmock
@@ -237,24 +250,24 @@ gtest_main/fast:
 .PHONY : gtest_main/fast
 
 #=============================================================================
-# Target rules for targets named ExampleTests
+# Target rules for targets named C-Emblem-Test
 
 # Build rule for target.
-ExampleTests: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ExampleTests
-.PHONY : ExampleTests
+C-Emblem-Test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 C-Emblem-Test
+.PHONY : C-Emblem-Test
 
 # fast build rule for target.
-ExampleTests/fast:
-	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/ExampleTests.dir/build.make test/CMakeFiles/ExampleTests.dir/build
-.PHONY : ExampleTests/fast
+C-Emblem-Test/fast:
+	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/C-Emblem-Test.dir/build.make test/CMakeFiles/C-Emblem-Test.dir/build
+.PHONY : C-Emblem-Test/fast
 
 Example.o: Example.cpp.o
 .PHONY : Example.o
 
 # target to build an object file
 Example.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Example.dir/build.make CMakeFiles/Example.dir/Example.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C-Emblem.dir/build.make CMakeFiles/C-Emblem.dir/Example.cpp.o
 .PHONY : Example.cpp.o
 
 Example.i: Example.cpp.i
@@ -262,7 +275,7 @@ Example.i: Example.cpp.i
 
 # target to preprocess a source file
 Example.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Example.dir/build.make CMakeFiles/Example.dir/Example.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C-Emblem.dir/build.make CMakeFiles/C-Emblem.dir/Example.cpp.i
 .PHONY : Example.cpp.i
 
 Example.s: Example.cpp.s
@@ -270,8 +283,32 @@ Example.s: Example.cpp.s
 
 # target to generate assembly for a file
 Example.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Example.dir/build.make CMakeFiles/Example.dir/Example.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C-Emblem.dir/build.make CMakeFiles/C-Emblem.dir/Example.cpp.s
 .PHONY : Example.cpp.s
+
+src/view/main.o: src/view/main.cpp.o
+.PHONY : src/view/main.o
+
+# target to build an object file
+src/view/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C-Emblem_Executable.dir/build.make CMakeFiles/C-Emblem_Executable.dir/src/view/main.cpp.o
+.PHONY : src/view/main.cpp.o
+
+src/view/main.i: src/view/main.cpp.i
+.PHONY : src/view/main.i
+
+# target to preprocess a source file
+src/view/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C-Emblem_Executable.dir/build.make CMakeFiles/C-Emblem_Executable.dir/src/view/main.cpp.i
+.PHONY : src/view/main.cpp.i
+
+src/view/main.s: src/view/main.cpp.s
+.PHONY : src/view/main.s
+
+# target to generate assembly for a file
+src/view/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C-Emblem_Executable.dir/build.make CMakeFiles/C-Emblem_Executable.dir/src/view/main.cpp.s
+.PHONY : src/view/main.cpp.s
 
 # Help Target
 help:
@@ -286,8 +323,9 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... test"
-	@echo "... Example"
-	@echo "... ExampleTests"
+	@echo "... C-Emblem"
+	@echo "... C-Emblem-Test"
+	@echo "... C-Emblem_Executable"
 	@echo "... gmock"
 	@echo "... gmock_main"
 	@echo "... gtest"
@@ -295,6 +333,9 @@ help:
 	@echo "... Example.o"
 	@echo "... Example.i"
 	@echo "... Example.s"
+	@echo "... src/view/main.o"
+	@echo "... src/view/main.i"
+	@echo "... src/view/main.s"
 .PHONY : help
 
 

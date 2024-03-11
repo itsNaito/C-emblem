@@ -21,7 +21,8 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						2
 					]
 				},
 				{
@@ -47,7 +48,7 @@
 						3
 					],
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-googleTest.googlemock-Debug-1f44a68012bcaac1e45e.json",
+					"jsonFile" : "directory-googleTest.googlemock-Debug-21f8ad6d46e827b10f7a.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.13"
@@ -57,14 +58,14 @@
 					"source" : "googleTest/googlemock",
 					"targetIndexes" : 
 					[
-						2,
-						3
+						3,
+						4
 					]
 				},
 				{
 					"build" : "googleTest/googletest",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-googleTest.googletest-Debug-51a32c46b9c3e955b3ab.json",
+					"jsonFile" : "directory-googleTest.googletest-Debug-6e70cfe79b9c7cc2c6ff.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.13"
@@ -74,8 +75,8 @@
 					"source" : "googleTest/googletest",
 					"targetIndexes" : 
 					[
-						4,
-						5
+						5,
+						6
 					]
 				},
 				{
@@ -107,11 +108,12 @@
 						0,
 						4
 					],
-					"name" : "Example",
+					"name" : "C-Emblem",
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					]
 				},
 				{
@@ -139,8 +141,8 @@
 					"parentIndex" : 1,
 					"targetIndexes" : 
 					[
-						2,
-						3
+						3,
+						4
 					]
 				},
 				{
@@ -152,8 +154,8 @@
 					"parentIndex" : 2,
 					"targetIndexes" : 
 					[
-						4,
-						5
+						5,
+						6
 					]
 				}
 			],
@@ -161,16 +163,23 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "Example::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Example-Debug-e0fefdb02ed8b4e98720.json",
-					"name" : "Example",
+					"id" : "C-Emblem::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-C-Emblem-Debug-4c63926104d8388e5738.json",
+					"name" : "C-Emblem",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 4,
-					"id" : "ExampleTests::@36f028580bb02cc8272a",
-					"jsonFile" : "target-ExampleTests-Debug-59ff5c51845a8140f253.json",
-					"name" : "ExampleTests",
+					"id" : "C-Emblem-Test::@36f028580bb02cc8272a",
+					"jsonFile" : "target-C-Emblem-Test-Debug-27ee9fa684d4be1c12a2.json",
+					"name" : "C-Emblem-Test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "C-Emblem_Executable::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-C-Emblem_Executable-Debug-f96428219627c2903a0f.json",
+					"name" : "C-Emblem_Executable",
 					"projectIndex" : 0
 				},
 				{

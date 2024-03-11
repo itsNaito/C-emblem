@@ -3,7 +3,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "libExample.a"
+			"path" : "libC-Emblem.a"
 		}
 	],
 	"backtrace" : 1,
@@ -25,7 +25,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 23,
+				"line" : 24,
 				"parent" : 0
 			}
 		]
@@ -54,9 +54,9 @@
 			]
 		}
 	],
-	"id" : "Example::@6890427a1f51a3e7e1df",
-	"name" : "Example",
-	"nameOnDisk" : "libExample.a",
+	"id" : "C-Emblem::@6890427a1f51a3e7e1df",
+	"name" : "C-Emblem",
+	"nameOnDisk" : "libC-Emblem.a",
 	"paths" : 
 	{
 		"build" : ".",
@@ -75,7 +75,8 @@
 			"name" : "Header Files",
 			"sourceIndexes" : 
 			[
-				1
+				1,
+				2
 			]
 		}
 	],
@@ -86,6 +87,11 @@
 			"compileGroupIndex" : 0,
 			"path" : "Example.cpp",
 			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/model/Stats.hpp",
+			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,

@@ -79,10 +79,11 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/Example.dir/DependInfo.cmake"
+  "CMakeFiles/C-Emblem.dir/DependInfo.cmake"
+  "CMakeFiles/C-Emblem_Executable.dir/DependInfo.cmake"
   "googleTest/googlemock/CMakeFiles/gmock.dir/DependInfo.cmake"
   "googleTest/googlemock/CMakeFiles/gmock_main.dir/DependInfo.cmake"
   "googleTest/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
   "googleTest/googletest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
-  "test/CMakeFiles/ExampleTests.dir/DependInfo.cmake"
+  "test/CMakeFiles/C-Emblem-Test.dir/DependInfo.cmake"
   )

@@ -172,25 +172,25 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-test/CMakeFiles/ExampleTests.dir/rule:
-	cd /Users/ianfanfair/C++/C-emblem/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/ExampleTests.dir/rule
-.PHONY : test/CMakeFiles/ExampleTests.dir/rule
+test/CMakeFiles/C-Emblem-Test.dir/rule:
+	cd /Users/ianfanfair/C++/C-emblem/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/C-Emblem-Test.dir/rule
+.PHONY : test/CMakeFiles/C-Emblem-Test.dir/rule
 
 # Convenience name for target.
-ExampleTests: test/CMakeFiles/ExampleTests.dir/rule
-.PHONY : ExampleTests
+C-Emblem-Test: test/CMakeFiles/C-Emblem-Test.dir/rule
+.PHONY : C-Emblem-Test
 
 # fast build rule for target.
-ExampleTests/fast:
-	cd /Users/ianfanfair/C++/C-emblem/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/ExampleTests.dir/build.make test/CMakeFiles/ExampleTests.dir/build
-.PHONY : ExampleTests/fast
+C-Emblem-Test/fast:
+	cd /Users/ianfanfair/C++/C-emblem/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/C-Emblem-Test.dir/build.make test/CMakeFiles/C-Emblem-Test.dir/build
+.PHONY : C-Emblem-Test/fast
 
 ExampleTests.o: ExampleTests.cpp.o
 .PHONY : ExampleTests.o
 
 # target to build an object file
 ExampleTests.cpp.o:
-	cd /Users/ianfanfair/C++/C-emblem/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/ExampleTests.dir/build.make test/CMakeFiles/ExampleTests.dir/ExampleTests.cpp.o
+	cd /Users/ianfanfair/C++/C-emblem/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/C-Emblem-Test.dir/build.make test/CMakeFiles/C-Emblem-Test.dir/ExampleTests.cpp.o
 .PHONY : ExampleTests.cpp.o
 
 ExampleTests.i: ExampleTests.cpp.i
@@ -198,7 +198,7 @@ ExampleTests.i: ExampleTests.cpp.i
 
 # target to preprocess a source file
 ExampleTests.cpp.i:
-	cd /Users/ianfanfair/C++/C-emblem/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/ExampleTests.dir/build.make test/CMakeFiles/ExampleTests.dir/ExampleTests.cpp.i
+	cd /Users/ianfanfair/C++/C-emblem/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/C-Emblem-Test.dir/build.make test/CMakeFiles/C-Emblem-Test.dir/ExampleTests.cpp.i
 .PHONY : ExampleTests.cpp.i
 
 ExampleTests.s: ExampleTests.cpp.s
@@ -206,7 +206,7 @@ ExampleTests.s: ExampleTests.cpp.s
 
 # target to generate assembly for a file
 ExampleTests.cpp.s:
-	cd /Users/ianfanfair/C++/C-emblem/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/ExampleTests.dir/build.make test/CMakeFiles/ExampleTests.dir/ExampleTests.cpp.s
+	cd /Users/ianfanfair/C++/C-emblem/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/C-Emblem-Test.dir/build.make test/CMakeFiles/C-Emblem-Test.dir/ExampleTests.cpp.s
 .PHONY : ExampleTests.cpp.s
 
 # Help Target
@@ -222,7 +222,7 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... test"
-	@echo "... ExampleTests"
+	@echo "... C-Emblem-Test"
 	@echo "... ExampleTests.o"
 	@echo "... ExampleTests.i"
 	@echo "... ExampleTests.s"
