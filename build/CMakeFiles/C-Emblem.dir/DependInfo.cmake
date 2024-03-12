@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/ianfanfair/C++/C-emblem/src/model/Attributes.cpp" "CMakeFiles/C-Emblem.dir/src/model/Attributes.cpp.o" "gcc" "CMakeFiles/C-Emblem.dir/src/model/Attributes.cpp.o.d"
-  "/Users/ianfanfair/C++/C-emblem/src/model/Stats.cpp" "CMakeFiles/C-Emblem.dir/src/model/Stats.cpp.o" "gcc" "CMakeFiles/C-Emblem.dir/src/model/Stats.cpp.o.d"
+  "/Users/ianfanfair/C++/C-emblem/src/model/character/Attributes.cpp" "CMakeFiles/C-Emblem.dir/src/model/character/Attributes.cpp.o" "gcc" "CMakeFiles/C-Emblem.dir/src/model/character/Attributes.cpp.o.d"
+  "/Users/ianfanfair/C++/C-emblem/src/model/character/Stats.cpp" "CMakeFiles/C-Emblem.dir/src/model/character/Stats.cpp.o" "gcc" "CMakeFiles/C-Emblem.dir/src/model/character/Stats.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

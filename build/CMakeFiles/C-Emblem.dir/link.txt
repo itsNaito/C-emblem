@@ -1,2 +1,2 @@
-/usr/bin/ar qc libC-Emblem.a "CMakeFiles/C-Emblem.dir/src/model/Stats.cpp.o" "CMakeFiles/C-Emblem.dir/src/model/Attributes.cpp.o"
+/usr/bin/ar qc libC-Emblem.a "CMakeFiles/C-Emblem.dir/src/model/character/Stats.cpp.o" "CMakeFiles/C-Emblem.dir/src/model/character/Attributes.cpp.o"
 /usr/bin/ranlib libC-Emblem.a

@@ -69,44 +69,44 @@ include CMakeFiles/C-Emblem.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/C-Emblem.dir/flags.make
 
-CMakeFiles/C-Emblem.dir/src/model/Stats.cpp.o: CMakeFiles/C-Emblem.dir/flags.make
-CMakeFiles/C-Emblem.dir/src/model/Stats.cpp.o: /Users/ianfanfair/C++/C-emblem/src/model/Stats.cpp
-CMakeFiles/C-Emblem.dir/src/model/Stats.cpp.o: CMakeFiles/C-Emblem.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ianfanfair/C++/C-emblem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/C-Emblem.dir/src/model/Stats.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/C-Emblem.dir/src/model/Stats.cpp.o -MF CMakeFiles/C-Emblem.dir/src/model/Stats.cpp.o.d -o CMakeFiles/C-Emblem.dir/src/model/Stats.cpp.o -c /Users/ianfanfair/C++/C-emblem/src/model/Stats.cpp
+CMakeFiles/C-Emblem.dir/src/model/character/Stats.cpp.o: CMakeFiles/C-Emblem.dir/flags.make
+CMakeFiles/C-Emblem.dir/src/model/character/Stats.cpp.o: /Users/ianfanfair/C++/C-emblem/src/model/character/Stats.cpp
+CMakeFiles/C-Emblem.dir/src/model/character/Stats.cpp.o: CMakeFiles/C-Emblem.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ianfanfair/C++/C-emblem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/C-Emblem.dir/src/model/character/Stats.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/C-Emblem.dir/src/model/character/Stats.cpp.o -MF CMakeFiles/C-Emblem.dir/src/model/character/Stats.cpp.o.d -o CMakeFiles/C-Emblem.dir/src/model/character/Stats.cpp.o -c /Users/ianfanfair/C++/C-emblem/src/model/character/Stats.cpp
 
-CMakeFiles/C-Emblem.dir/src/model/Stats.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/C-Emblem.dir/src/model/Stats.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ianfanfair/C++/C-emblem/src/model/Stats.cpp > CMakeFiles/C-Emblem.dir/src/model/Stats.cpp.i
+CMakeFiles/C-Emblem.dir/src/model/character/Stats.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/C-Emblem.dir/src/model/character/Stats.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ianfanfair/C++/C-emblem/src/model/character/Stats.cpp > CMakeFiles/C-Emblem.dir/src/model/character/Stats.cpp.i
 
-CMakeFiles/C-Emblem.dir/src/model/Stats.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/C-Emblem.dir/src/model/Stats.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ianfanfair/C++/C-emblem/src/model/Stats.cpp -o CMakeFiles/C-Emblem.dir/src/model/Stats.cpp.s
+CMakeFiles/C-Emblem.dir/src/model/character/Stats.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/C-Emblem.dir/src/model/character/Stats.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ianfanfair/C++/C-emblem/src/model/character/Stats.cpp -o CMakeFiles/C-Emblem.dir/src/model/character/Stats.cpp.s
 
-CMakeFiles/C-Emblem.dir/src/model/Attributes.cpp.o: CMakeFiles/C-Emblem.dir/flags.make
-CMakeFiles/C-Emblem.dir/src/model/Attributes.cpp.o: /Users/ianfanfair/C++/C-emblem/src/model/Attributes.cpp
-CMakeFiles/C-Emblem.dir/src/model/Attributes.cpp.o: CMakeFiles/C-Emblem.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ianfanfair/C++/C-emblem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/C-Emblem.dir/src/model/Attributes.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/C-Emblem.dir/src/model/Attributes.cpp.o -MF CMakeFiles/C-Emblem.dir/src/model/Attributes.cpp.o.d -o CMakeFiles/C-Emblem.dir/src/model/Attributes.cpp.o -c /Users/ianfanfair/C++/C-emblem/src/model/Attributes.cpp
+CMakeFiles/C-Emblem.dir/src/model/character/Attributes.cpp.o: CMakeFiles/C-Emblem.dir/flags.make
+CMakeFiles/C-Emblem.dir/src/model/character/Attributes.cpp.o: /Users/ianfanfair/C++/C-emblem/src/model/character/Attributes.cpp
+CMakeFiles/C-Emblem.dir/src/model/character/Attributes.cpp.o: CMakeFiles/C-Emblem.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ianfanfair/C++/C-emblem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/C-Emblem.dir/src/model/character/Attributes.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/C-Emblem.dir/src/model/character/Attributes.cpp.o -MF CMakeFiles/C-Emblem.dir/src/model/character/Attributes.cpp.o.d -o CMakeFiles/C-Emblem.dir/src/model/character/Attributes.cpp.o -c /Users/ianfanfair/C++/C-emblem/src/model/character/Attributes.cpp
 
-CMakeFiles/C-Emblem.dir/src/model/Attributes.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/C-Emblem.dir/src/model/Attributes.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ianfanfair/C++/C-emblem/src/model/Attributes.cpp > CMakeFiles/C-Emblem.dir/src/model/Attributes.cpp.i
+CMakeFiles/C-Emblem.dir/src/model/character/Attributes.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/C-Emblem.dir/src/model/character/Attributes.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ianfanfair/C++/C-emblem/src/model/character/Attributes.cpp > CMakeFiles/C-Emblem.dir/src/model/character/Attributes.cpp.i
 
-CMakeFiles/C-Emblem.dir/src/model/Attributes.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/C-Emblem.dir/src/model/Attributes.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ianfanfair/C++/C-emblem/src/model/Attributes.cpp -o CMakeFiles/C-Emblem.dir/src/model/Attributes.cpp.s
+CMakeFiles/C-Emblem.dir/src/model/character/Attributes.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/C-Emblem.dir/src/model/character/Attributes.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ianfanfair/C++/C-emblem/src/model/character/Attributes.cpp -o CMakeFiles/C-Emblem.dir/src/model/character/Attributes.cpp.s
 
 # Object files for target C-Emblem
 C__Emblem_OBJECTS = \
-"CMakeFiles/C-Emblem.dir/src/model/Stats.cpp.o" \
-"CMakeFiles/C-Emblem.dir/src/model/Attributes.cpp.o"
+"CMakeFiles/C-Emblem.dir/src/model/character/Stats.cpp.o" \
+"CMakeFiles/C-Emblem.dir/src/model/character/Attributes.cpp.o"
 
 # External object files for target C-Emblem
 C__Emblem_EXTERNAL_OBJECTS =
 
-libC-Emblem.a: CMakeFiles/C-Emblem.dir/src/model/Stats.cpp.o
-libC-Emblem.a: CMakeFiles/C-Emblem.dir/src/model/Attributes.cpp.o
+libC-Emblem.a: CMakeFiles/C-Emblem.dir/src/model/character/Stats.cpp.o
+libC-Emblem.a: CMakeFiles/C-Emblem.dir/src/model/character/Attributes.cpp.o
 libC-Emblem.a: CMakeFiles/C-Emblem.dir/build.make
 libC-Emblem.a: CMakeFiles/C-Emblem.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/ianfanfair/C++/C-emblem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libC-Emblem.a"

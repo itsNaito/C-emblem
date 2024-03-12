@@ -13,13 +13,14 @@ enable_testing()
 add_subdirectory(googleTest)
 
 set(Headers
-    src/model/Stats.hpp
-    src/model/Attributes.hpp
+    src/model/character/Stats.hpp
+    src/model/character/Attributes.hpp
+    src/model/Grade.hpp
 )
 
 set(Sources
-    src/model/Stats.cpp
-    src/model/Attributes.cpp
+    src/model/character/Stats.cpp
+    src/model/character/Attributes.cpp
 )
 
 add_library(${This} ${Sources} ${Headers})

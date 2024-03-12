@@ -308,9 +308,9 @@ googleTest/googletest/CMakeFiles/gtest_main.dir/clean:
 # Target rules for target test/CMakeFiles/C-Emblem-Test.dir
 
 # All Build rule for target.
-test/CMakeFiles/C-Emblem-Test.dir/all: CMakeFiles/C-Emblem.dir/all
 test/CMakeFiles/C-Emblem-Test.dir/all: googleTest/googletest/CMakeFiles/gtest.dir/all
 test/CMakeFiles/C-Emblem-Test.dir/all: googleTest/googletest/CMakeFiles/gtest_main.dir/all
+test/CMakeFiles/C-Emblem-Test.dir/all: CMakeFiles/C-Emblem.dir/all
 	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/C-Emblem-Test.dir/build.make test/CMakeFiles/C-Emblem-Test.dir/depend
 	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/C-Emblem-Test.dir/build.make test/CMakeFiles/C-Emblem-Test.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/ianfanfair/C++/C-emblem/build/CMakeFiles --progress-num=4,5 "Built target C-Emblem-Test"

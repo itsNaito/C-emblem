@@ -262,53 +262,53 @@ C-Emblem-Test/fast:
 	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/C-Emblem-Test.dir/build.make test/CMakeFiles/C-Emblem-Test.dir/build
 .PHONY : C-Emblem-Test/fast
 
-src/model/Attributes.o: src/model/Attributes.cpp.o
-.PHONY : src/model/Attributes.o
+src/model/character/Attributes.o: src/model/character/Attributes.cpp.o
+.PHONY : src/model/character/Attributes.o
 
 # target to build an object file
-src/model/Attributes.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C-Emblem.dir/build.make CMakeFiles/C-Emblem.dir/src/model/Attributes.cpp.o
-.PHONY : src/model/Attributes.cpp.o
+src/model/character/Attributes.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C-Emblem.dir/build.make CMakeFiles/C-Emblem.dir/src/model/character/Attributes.cpp.o
+.PHONY : src/model/character/Attributes.cpp.o
 
-src/model/Attributes.i: src/model/Attributes.cpp.i
-.PHONY : src/model/Attributes.i
+src/model/character/Attributes.i: src/model/character/Attributes.cpp.i
+.PHONY : src/model/character/Attributes.i
 
 # target to preprocess a source file
-src/model/Attributes.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C-Emblem.dir/build.make CMakeFiles/C-Emblem.dir/src/model/Attributes.cpp.i
-.PHONY : src/model/Attributes.cpp.i
+src/model/character/Attributes.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C-Emblem.dir/build.make CMakeFiles/C-Emblem.dir/src/model/character/Attributes.cpp.i
+.PHONY : src/model/character/Attributes.cpp.i
 
-src/model/Attributes.s: src/model/Attributes.cpp.s
-.PHONY : src/model/Attributes.s
+src/model/character/Attributes.s: src/model/character/Attributes.cpp.s
+.PHONY : src/model/character/Attributes.s
 
 # target to generate assembly for a file
-src/model/Attributes.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C-Emblem.dir/build.make CMakeFiles/C-Emblem.dir/src/model/Attributes.cpp.s
-.PHONY : src/model/Attributes.cpp.s
+src/model/character/Attributes.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C-Emblem.dir/build.make CMakeFiles/C-Emblem.dir/src/model/character/Attributes.cpp.s
+.PHONY : src/model/character/Attributes.cpp.s
 
-src/model/Stats.o: src/model/Stats.cpp.o
-.PHONY : src/model/Stats.o
+src/model/character/Stats.o: src/model/character/Stats.cpp.o
+.PHONY : src/model/character/Stats.o
 
 # target to build an object file
-src/model/Stats.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C-Emblem.dir/build.make CMakeFiles/C-Emblem.dir/src/model/Stats.cpp.o
-.PHONY : src/model/Stats.cpp.o
+src/model/character/Stats.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C-Emblem.dir/build.make CMakeFiles/C-Emblem.dir/src/model/character/Stats.cpp.o
+.PHONY : src/model/character/Stats.cpp.o
 
-src/model/Stats.i: src/model/Stats.cpp.i
-.PHONY : src/model/Stats.i
+src/model/character/Stats.i: src/model/character/Stats.cpp.i
+.PHONY : src/model/character/Stats.i
 
 # target to preprocess a source file
-src/model/Stats.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C-Emblem.dir/build.make CMakeFiles/C-Emblem.dir/src/model/Stats.cpp.i
-.PHONY : src/model/Stats.cpp.i
+src/model/character/Stats.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C-Emblem.dir/build.make CMakeFiles/C-Emblem.dir/src/model/character/Stats.cpp.i
+.PHONY : src/model/character/Stats.cpp.i
 
-src/model/Stats.s: src/model/Stats.cpp.s
-.PHONY : src/model/Stats.s
+src/model/character/Stats.s: src/model/character/Stats.cpp.s
+.PHONY : src/model/character/Stats.s
 
 # target to generate assembly for a file
-src/model/Stats.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C-Emblem.dir/build.make CMakeFiles/C-Emblem.dir/src/model/Stats.cpp.s
-.PHONY : src/model/Stats.cpp.s
+src/model/character/Stats.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C-Emblem.dir/build.make CMakeFiles/C-Emblem.dir/src/model/character/Stats.cpp.s
+.PHONY : src/model/character/Stats.cpp.s
 
 src/view/main.o: src/view/main.cpp.o
 .PHONY : src/view/main.o
@@ -354,12 +354,12 @@ help:
 	@echo "... gmock_main"
 	@echo "... gtest"
 	@echo "... gtest_main"
-	@echo "... src/model/Attributes.o"
-	@echo "... src/model/Attributes.i"
-	@echo "... src/model/Attributes.s"
-	@echo "... src/model/Stats.o"
-	@echo "... src/model/Stats.i"
-	@echo "... src/model/Stats.s"
+	@echo "... src/model/character/Attributes.o"
+	@echo "... src/model/character/Attributes.i"
+	@echo "... src/model/character/Attributes.s"
+	@echo "... src/model/character/Stats.o"
+	@echo "... src/model/character/Stats.i"
+	@echo "... src/model/character/Stats.s"
 	@echo "... src/view/main.o"
 	@echo "... src/view/main.i"
 	@echo "... src/view/main.s"

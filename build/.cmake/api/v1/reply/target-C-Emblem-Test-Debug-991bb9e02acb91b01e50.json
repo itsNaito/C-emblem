@@ -87,15 +87,15 @@
 	[
 		{
 			"backtrace" : 2,
-			"id" : "C-Emblem::@6890427a1f51a3e7e1df"
-		},
-		{
-			"backtrace" : 2,
 			"id" : "gtest::@278edbe3db4d90f6ef82"
 		},
 		{
 			"backtrace" : 2,
 			"id" : "gtest_main::@278edbe3db4d90f6ef82"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "C-Emblem::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "C-Emblem-Test::@36f028580bb02cc8272a",
