@@ -1,5 +1,7 @@
 #pragma once
 #include <string>
+#include <vector>
+
 /**
  * enum is responsible for the name of each of the 8 stats in the game
  * Each stat is responsible for a different characteristic
@@ -22,4 +24,5 @@ class Stats{
     static const std::string hp();
     static const std::string resistance();
     static const std::string luck();
+    static const std::vector<std::string> listStats();
 };

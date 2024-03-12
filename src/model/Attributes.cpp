@@ -21,8 +21,9 @@ void Attributes::takeDamage(/**takes an attack object with damage and attackvalu
 */
 std::string Attributes::getStats(){
     std::string statString = "";
-    for(const auto& pair : stats){
-        statString += pair.first + ": " + std::to_string(pair.second) + "\n";
+    std::vector<std::string> statsList = Stats::listStats();
+    for(int i=0; i< statsList.size(); i++){
+        statString += statsList[i] + ": " + std::to_string(stats.at(statsList[i])) + "\n";
     }
 
     return statString;

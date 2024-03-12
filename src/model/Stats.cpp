@@ -1,5 +1,4 @@
 #include "Stats.hpp"
-#include <string>
 
 /**
 * @return string for strength
@@ -55,4 +54,12 @@ const std::string Stats::resistance() {
 */
 const std::string Stats::luck() {
     return "luck";
+}
+
+/**
+ * @return list of strings for each of the 8 stats in the order that they should be displayed
+ * Used for printing out the character stats and is used to dictate the order that they are listed when the getStats method is called
+*/
+const std::vector<std::string> Stats::listStats(){
+    return std::vector<std::string>{hp(),strength(),magic(),defense(),resistance(),speed(),dexterity(),luck()};
 }
