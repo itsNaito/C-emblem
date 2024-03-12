@@ -154,12 +154,12 @@ test/clean: test/CMakeFiles/C-Emblem-Test.dir/clean
 CMakeFiles/C-Emblem.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/C-Emblem.dir/build.make CMakeFiles/C-Emblem.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/C-Emblem.dir/build.make CMakeFiles/C-Emblem.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/ianfanfair/C++/C-emblem/build/CMakeFiles --progress-num=1,2 "Built target C-Emblem"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/ianfanfair/C++/C-emblem/build/CMakeFiles --progress-num=1,2,3 "Built target C-Emblem"
 .PHONY : CMakeFiles/C-Emblem.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/C-Emblem.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ianfanfair/C++/C-emblem/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ianfanfair/C++/C-emblem/build/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/C-Emblem.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ianfanfair/C++/C-emblem/build/CMakeFiles 0
 .PHONY : CMakeFiles/C-Emblem.dir/rule
@@ -180,12 +180,12 @@ CMakeFiles/C-Emblem.dir/clean:
 CMakeFiles/C-Emblem_Executable.dir/all: CMakeFiles/C-Emblem.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/C-Emblem_Executable.dir/build.make CMakeFiles/C-Emblem_Executable.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/C-Emblem_Executable.dir/build.make CMakeFiles/C-Emblem_Executable.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/ianfanfair/C++/C-emblem/build/CMakeFiles --progress-num=5,6 "Built target C-Emblem_Executable"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/ianfanfair/C++/C-emblem/build/CMakeFiles --progress-num=6,7 "Built target C-Emblem_Executable"
 .PHONY : CMakeFiles/C-Emblem_Executable.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/C-Emblem_Executable.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ianfanfair/C++/C-emblem/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ianfanfair/C++/C-emblem/build/CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/C-Emblem_Executable.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ianfanfair/C++/C-emblem/build/CMakeFiles 0
 .PHONY : CMakeFiles/C-Emblem_Executable.dir/rule
@@ -206,7 +206,7 @@ CMakeFiles/C-Emblem_Executable.dir/clean:
 googleTest/googlemock/CMakeFiles/gmock.dir/all: googleTest/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) $(MAKESILENT) -f googleTest/googlemock/CMakeFiles/gmock.dir/build.make googleTest/googlemock/CMakeFiles/gmock.dir/depend
 	$(MAKE) $(MAKESILENT) -f googleTest/googlemock/CMakeFiles/gmock.dir/build.make googleTest/googlemock/CMakeFiles/gmock.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/ianfanfair/C++/C-emblem/build/CMakeFiles --progress-num=7,8 "Built target gmock"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/ianfanfair/C++/C-emblem/build/CMakeFiles --progress-num=8,9 "Built target gmock"
 .PHONY : googleTest/googlemock/CMakeFiles/gmock.dir/all
 
 # Build rule for subdir invocation for target.
@@ -233,7 +233,7 @@ googleTest/googlemock/CMakeFiles/gmock_main.dir/all: googleTest/googlemock/CMake
 googleTest/googlemock/CMakeFiles/gmock_main.dir/all: googleTest/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) $(MAKESILENT) -f googleTest/googlemock/CMakeFiles/gmock_main.dir/build.make googleTest/googlemock/CMakeFiles/gmock_main.dir/depend
 	$(MAKE) $(MAKESILENT) -f googleTest/googlemock/CMakeFiles/gmock_main.dir/build.make googleTest/googlemock/CMakeFiles/gmock_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/ianfanfair/C++/C-emblem/build/CMakeFiles --progress-num=9,10 "Built target gmock_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/ianfanfair/C++/C-emblem/build/CMakeFiles --progress-num=10,11 "Built target gmock_main"
 .PHONY : googleTest/googlemock/CMakeFiles/gmock_main.dir/all
 
 # Build rule for subdir invocation for target.
@@ -259,7 +259,7 @@ googleTest/googlemock/CMakeFiles/gmock_main.dir/clean:
 googleTest/googletest/CMakeFiles/gtest.dir/all:
 	$(MAKE) $(MAKESILENT) -f googleTest/googletest/CMakeFiles/gtest.dir/build.make googleTest/googletest/CMakeFiles/gtest.dir/depend
 	$(MAKE) $(MAKESILENT) -f googleTest/googletest/CMakeFiles/gtest.dir/build.make googleTest/googletest/CMakeFiles/gtest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/ianfanfair/C++/C-emblem/build/CMakeFiles --progress-num=11,12 "Built target gtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/ianfanfair/C++/C-emblem/build/CMakeFiles --progress-num=12,13 "Built target gtest"
 .PHONY : googleTest/googletest/CMakeFiles/gtest.dir/all
 
 # Build rule for subdir invocation for target.
@@ -285,7 +285,7 @@ googleTest/googletest/CMakeFiles/gtest.dir/clean:
 googleTest/googletest/CMakeFiles/gtest_main.dir/all: googleTest/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) $(MAKESILENT) -f googleTest/googletest/CMakeFiles/gtest_main.dir/build.make googleTest/googletest/CMakeFiles/gtest_main.dir/depend
 	$(MAKE) $(MAKESILENT) -f googleTest/googletest/CMakeFiles/gtest_main.dir/build.make googleTest/googletest/CMakeFiles/gtest_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/ianfanfair/C++/C-emblem/build/CMakeFiles --progress-num=13,14 "Built target gtest_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/ianfanfair/C++/C-emblem/build/CMakeFiles --progress-num=14,15 "Built target gtest_main"
 .PHONY : googleTest/googletest/CMakeFiles/gtest_main.dir/all
 
 # Build rule for subdir invocation for target.
@@ -313,12 +313,12 @@ test/CMakeFiles/C-Emblem-Test.dir/all: googleTest/googletest/CMakeFiles/gtest.di
 test/CMakeFiles/C-Emblem-Test.dir/all: googleTest/googletest/CMakeFiles/gtest_main.dir/all
 	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/C-Emblem-Test.dir/build.make test/CMakeFiles/C-Emblem-Test.dir/depend
 	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/C-Emblem-Test.dir/build.make test/CMakeFiles/C-Emblem-Test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/ianfanfair/C++/C-emblem/build/CMakeFiles --progress-num=3,4 "Built target C-Emblem-Test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/ianfanfair/C++/C-emblem/build/CMakeFiles --progress-num=4,5 "Built target C-Emblem-Test"
 .PHONY : test/CMakeFiles/C-Emblem-Test.dir/all
 
 # Build rule for subdir invocation for target.
 test/CMakeFiles/C-Emblem-Test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ianfanfair/C++/C-emblem/build/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ianfanfair/C++/C-emblem/build/CMakeFiles 9
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/C-Emblem-Test.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ianfanfair/C++/C-emblem/build/CMakeFiles 0
 .PHONY : test/CMakeFiles/C-Emblem-Test.dir/rule

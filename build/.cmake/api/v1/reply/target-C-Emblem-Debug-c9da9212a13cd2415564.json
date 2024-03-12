@@ -25,7 +25,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 24,
+				"line" : 25,
 				"parent" : 0
 			}
 		]
@@ -50,7 +50,8 @@
 			},
 			"sourceIndexes" : 
 			[
-				0
+				0,
+				1
 			]
 		}
 	],
@@ -68,15 +69,16 @@
 			"name" : "Source Files",
 			"sourceIndexes" : 
 			[
-				0
+				0,
+				1
 			]
 		},
 		{
 			"name" : "Header Files",
 			"sourceIndexes" : 
 			[
-				1,
-				2
+				2,
+				3
 			]
 		}
 	],
@@ -85,7 +87,13 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Example.cpp",
+			"path" : "src/model/Stats.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/model/Attributes.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -95,7 +103,7 @@
 		},
 		{
 			"backtrace" : 1,
-			"path" : "Example.hpp",
+			"path" : "src/model/Attributes.hpp",
 			"sourceGroupIndex" : 1
 		}
 	],

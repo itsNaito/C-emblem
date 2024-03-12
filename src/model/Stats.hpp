@@ -1,5 +1,5 @@
 #pragma once
-
+#include <string>
 /**
  * enum is responsible for the name of each of the 8 stats in the game
  * Each stat is responsible for a different characteristic
@@ -12,13 +12,14 @@
  * resistance reduces the damage from magic attacks
  * luck reduces the chance to be crit on
 */
-enum Stats{
-    STRENGTH,
-    MAGIC,
-    DEXTERITY,
-    SPEED,
-    DEFENSE,
-    HP,
-    RESISTANCE,
-    LUCK
+class Stats{
+    public:
+    static const std::string strength();
+    static const std::string magic();
+    static const std::string dexterity();
+    static const std::string speed();
+    static const std::string defense();
+    static const std::string hp();
+    static const std::string resistance();
+    static const std::string luck();
 };

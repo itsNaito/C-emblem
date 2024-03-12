@@ -262,29 +262,53 @@ C-Emblem-Test/fast:
 	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/C-Emblem-Test.dir/build.make test/CMakeFiles/C-Emblem-Test.dir/build
 .PHONY : C-Emblem-Test/fast
 
-Example.o: Example.cpp.o
-.PHONY : Example.o
+src/model/Attributes.o: src/model/Attributes.cpp.o
+.PHONY : src/model/Attributes.o
 
 # target to build an object file
-Example.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C-Emblem.dir/build.make CMakeFiles/C-Emblem.dir/Example.cpp.o
-.PHONY : Example.cpp.o
+src/model/Attributes.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C-Emblem.dir/build.make CMakeFiles/C-Emblem.dir/src/model/Attributes.cpp.o
+.PHONY : src/model/Attributes.cpp.o
 
-Example.i: Example.cpp.i
-.PHONY : Example.i
+src/model/Attributes.i: src/model/Attributes.cpp.i
+.PHONY : src/model/Attributes.i
 
 # target to preprocess a source file
-Example.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C-Emblem.dir/build.make CMakeFiles/C-Emblem.dir/Example.cpp.i
-.PHONY : Example.cpp.i
+src/model/Attributes.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C-Emblem.dir/build.make CMakeFiles/C-Emblem.dir/src/model/Attributes.cpp.i
+.PHONY : src/model/Attributes.cpp.i
 
-Example.s: Example.cpp.s
-.PHONY : Example.s
+src/model/Attributes.s: src/model/Attributes.cpp.s
+.PHONY : src/model/Attributes.s
 
 # target to generate assembly for a file
-Example.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C-Emblem.dir/build.make CMakeFiles/C-Emblem.dir/Example.cpp.s
-.PHONY : Example.cpp.s
+src/model/Attributes.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C-Emblem.dir/build.make CMakeFiles/C-Emblem.dir/src/model/Attributes.cpp.s
+.PHONY : src/model/Attributes.cpp.s
+
+src/model/Stats.o: src/model/Stats.cpp.o
+.PHONY : src/model/Stats.o
+
+# target to build an object file
+src/model/Stats.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C-Emblem.dir/build.make CMakeFiles/C-Emblem.dir/src/model/Stats.cpp.o
+.PHONY : src/model/Stats.cpp.o
+
+src/model/Stats.i: src/model/Stats.cpp.i
+.PHONY : src/model/Stats.i
+
+# target to preprocess a source file
+src/model/Stats.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C-Emblem.dir/build.make CMakeFiles/C-Emblem.dir/src/model/Stats.cpp.i
+.PHONY : src/model/Stats.cpp.i
+
+src/model/Stats.s: src/model/Stats.cpp.s
+.PHONY : src/model/Stats.s
+
+# target to generate assembly for a file
+src/model/Stats.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C-Emblem.dir/build.make CMakeFiles/C-Emblem.dir/src/model/Stats.cpp.s
+.PHONY : src/model/Stats.cpp.s
 
 src/view/main.o: src/view/main.cpp.o
 .PHONY : src/view/main.o
@@ -330,9 +354,12 @@ help:
 	@echo "... gmock_main"
 	@echo "... gtest"
 	@echo "... gtest_main"
-	@echo "... Example.o"
-	@echo "... Example.i"
-	@echo "... Example.s"
+	@echo "... src/model/Attributes.o"
+	@echo "... src/model/Attributes.i"
+	@echo "... src/model/Attributes.s"
+	@echo "... src/model/Stats.o"
+	@echo "... src/model/Stats.i"
+	@echo "... src/model/Stats.s"
 	@echo "... src/view/main.o"
 	@echo "... src/view/main.i"
 	@echo "... src/view/main.s"

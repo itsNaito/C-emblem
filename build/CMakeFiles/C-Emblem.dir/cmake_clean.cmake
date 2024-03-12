@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/C-Emblem.dir/Example.cpp.o"
-  "CMakeFiles/C-Emblem.dir/Example.cpp.o.d"
+  "CMakeFiles/C-Emblem.dir/src/model/Attributes.cpp.o"
+  "CMakeFiles/C-Emblem.dir/src/model/Attributes.cpp.o.d"
+  "CMakeFiles/C-Emblem.dir/src/model/Stats.cpp.o"
+  "CMakeFiles/C-Emblem.dir/src/model/Stats.cpp.o.d"
   "libC-Emblem.a"
   "libC-Emblem.pdb"
 )

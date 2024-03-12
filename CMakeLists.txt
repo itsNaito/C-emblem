@@ -14,11 +14,12 @@ add_subdirectory(googleTest)
 
 set(Headers
     src/model/Stats.hpp
-    Example.hpp
+    src/model/Attributes.hpp
 )
 
 set(Sources
-    Example.cpp
+    src/model/Stats.cpp
+    src/model/Attributes.cpp
 )
 
 add_library(${This} ${Sources} ${Headers})
